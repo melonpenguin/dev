@@ -1,0 +1,200 @@
+body{
+    font-family: Apple SD Gothic Neo Regular;
+}
+
+a:link{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    gap : 40px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#headColorO{
+    color: #FF7236;
+}
+
+#headColorG{
+    color: #4d5159;
+}
+
+.leftMenu{
+    display: flex;
+    gap:40px;
+    margin-left: 160px;
+    text-align: center;
+    padding-right: 400px;
+}
+
+.rightMenu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.search{
+    border-radius: 8px;
+    border-style: none;
+    border-width: 0px;
+    background-color: #e7e7e7;
+    padding-left: 16px;
+}
+
+.text-m{
+    color: #212529;
+    font-size: 16px;
+}
+
+
+.MainTitleLeft{
+    font-size: 46px;
+    line-height:1.3; 
+    font-weight: bold;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+.MainTitleRight{
+    font-size: 46px;
+    line-height:1.3; 
+    font-weight: bold;
+    padding-top: 200px;
+}
+
+
+#firstImg{
+    padding-left: 100px;
+    padding-top: 50px;
+    background-color: #FBF7F2;
+}
+
+.mainTop{
+    display: flex;
+    background-color: #FBF7F2;
+}
+
+.mainWhite{
+    display: flex;
+    gap:40px;
+    background-color: white;
+}
+
+#secondImg{
+    padding-left: 240px;
+    padding-top: 50px;
+    background-color: white;
+}
+
+.leftText{
+    padding-left: 200px;
+}
+
+#twoButton{
+    display: flex;
+    gap: 20px;
+}
+
+.whiteButton{
+    display: inline;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 0.3px;
+    border-color: rgb(213, 213, 213);
+    background-color: #ffffff;
+    color: #212529;
+    font-weight: bolder;
+    font-size: 14px;
+
+}
+
+.whiteButton:hover{
+    background-color: #eeeeee;
+}
+
+.grayButton{
+    margin-top: 16px;
+    display: inline-block;
+    cursor: pointer;
+    color: #212529;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: #F1F3F5
+}
+
+.grayButton:hover{
+    background-color: #E9ECEF;
+}
+
+.mainGreen{
+    background-color: #E6F3E6;
+    display: flex;
+}
+
+#thirdImg{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.iconText-n{
+    font-size: 14px;
+}
+
+.iconText-s{
+    font-size: 13px;
+}
+
+
+#iconDisplay{
+    padding-left: 200px;
+    padding-top: 50px;
+    display: flex;
+    gap: 40px
+}
+
+.iconItem{
+    max-width: 140px;
+    line-height: 18px;
+}
+
+#fourthImg{
+    padding-left: 200px;
+}
+
+#mainTitleCenter{
+    font-size: 46px;
+    line-height:1.3; 
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery{
+    margin-top: 30px;
+    margin-left: 260px;
+    margin-right: 260px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+.post{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
